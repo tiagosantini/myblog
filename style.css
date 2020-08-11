@@ -3,30 +3,78 @@ body {
 }
 
 .profile-img {
-    width: 250px;
-}
-
-.profile-img:hover {
-    opacity: 70%;
+    margin-top: .5rem;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid rgb(238, 238, 238);;
 }
 
 .main {
-    background: rgb(231, 231, 231);
+    background: rgb(238, 238, 238);
 }
 
 h1:hover {
     opacity: 70%;
 }
 
-.short {
-    color: rgb(94, 94, 94);
+.title a {
+    color: rgb(37, 106, 185);
+    float: left;
 }
+
+#github {
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(238, 238, 238);
+}
+
+.tag-html {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(127, 167, 214);
+    display:inline;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: .5rem;
+}
+
+.tag-python {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(27, 123, 202);
+    background-color: rgb(227, 238, 75);
+    display:inline;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: .5rem;
+}
+
+.tag-js {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 255, 30);
+    display:inline;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: .5rem;
+}
+
 
 .description {
     font-size: 15px;
+    margin-top: .5rem;
+    padding-left: .6rem;
+    padding-right: 150px;
 }
 
-.portfolio {
-    border-left: 1px solid grey;
-    padding-left: 5px;
+.project {
+    border-left: 1.5px solid rgb(202, 199, 199);;
+    padding-left: .5rem;
+
 }
+
+@media only screen and (max-width: 1000px) {
+    .profile-img {
+      max-width: 30%;
+      height: auto;
+    }
+  }
